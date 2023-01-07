@@ -13,7 +13,17 @@ Below is a diagram depicting a hierarchical network structure with **2** inputs 
 Taking the resource-allocation problem between the undergraduate and graduate sections,
 Kao (2015) defined the following shared-inputs hierarhical network DEA model after 
 decomposititon.
-<img width="475" alt="Screenshot 2023-01-07 at 17 45 28" src="https://user-images.githubusercontent.com/76271974/211163922-77838f76-7427-43f0-806e-e79ef0098768.png">
+
+<img width="392" alt="Screenshot 2023-01-07 at 17 58 34" src="https://user-images.githubusercontent.com/76271974/211164198-4e633dbe-6b81-4370-8470-705bf5881f60.png">
+
+Note that $\alpha_{1},\alpha_{2},\alpha_{3}$ represent the allocating proportion of inputs 
+to teaching (Unit 1), research (Unit2) and service (Unit3), while $\beta_{1}, \beta_{2}$ 
+indicate the allocation proportion for undergraduate (Unit 1-1)and graduate divisions 
+(Unit 1-2). 
+
+In above model, the first four constraints control the efficiency range of four units - 
+_the efficiency of each unit should be no greater than 1_. And the fourth line define the range of  allocation indexes ($\alpha_{1},\alpha_{2},\alpha_{3}$,$\beta_{1}, \beta_{2}$)
+
 
 
 
