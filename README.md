@@ -51,7 +51,7 @@ with k in [maxmin secondary objective model](./Maxmin_DEA_model.lng) to get the 
 **20 times** running of the program.
 
 After these two steps, we can get five efficiency matrixs, in which $E_{kj}$ indicates the jth observation under
-kth criteria, see [cross-efficiency table - sheet1- summary](./CE DEA.xlsx)
+kth criteria, see [cross-efficiency table - sheet1- summary](./CE_DEA.xlsx)
 
 #### Liu et al's Neutral CE approach.
 
