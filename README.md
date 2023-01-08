@@ -37,7 +37,7 @@ However, there are three issues exist:
 
 ## Proposed CRITIC cross-efficiency approach
 Here compares Kao's model with two models:
-1. Liu et al. (2022)'s [2^] combination of **maxmin secondary objective model** and **neutral cross-efficiency model**.
+1. Liu et al. (2022)'s [^2] combination of **maxmin secondary objective model** and **neutral cross-efficiency model**.
 2. A combination of **maxmin secondary objective model** and **CRITIC cross-efficiency model**.
 
 
