@@ -40,6 +40,13 @@ Here compares Kao's model with two models:
 1. Liu et al. (2022)'s [^2] combination of **maxmin secondary objective model** and **neutral cross-efficiency model**.
 2. A combination of **maxmin secondary objective model** and **CRITIC cross-efficiency model**.
 
+#### Maxmin DEA model
+Both methods utlize the maxmin secondary objective DEA model before applying the cross-efficiency approach.
+The coding has been prepared which can be run on Lingo software. It demadns **20 times** running of [self-evaluated 
+three-level hierarchical DEA model](./) proposed by Kao (2015). You can find 
+
+#### Liu et al's Neutral CE approach.
+
 
 
 [^1]: Kao, C. (2015). Efficiency measurement for hierarchical network systems. Omega, 51, pp.121–127. doi:10.1016/j.omega.2014.09.008.
