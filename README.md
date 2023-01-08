@@ -43,7 +43,15 @@ Here compares Kao's model with two models:
 #### Maxmin DEA model
 Both methods utlize the maxmin secondary objective DEA model before applying the cross-efficiency approach.
 The coding has been prepared which can be run on Lingo software. It demadns **20 times** running of [self-evaluated 
-three-level hierarchical DEA model](./SelfEvaHierarchialDEA.lng) proposed by Kao (2015). You can find 
+three-level hierarchical DEA model](./SelfEvaHierarchialDEA.lng) proposed by Kao (2015).\
+_Note: We can get each DMU's self-evaluated efficiency of each component by adjusting the k value on the 30th line._
+
+After recording the $E^{U}$, $E^{G}$. $E^{R}$, $E^{S}$, $E^{NW}$ results for each DMU, making them as inputs, along 
+with k in [maxmin secondary objective model](./Maxmin_DEA_model.lng) to get the maxmin DEA results with another 
+**20 times** running of the program.
+
+After these two steps, we can get five efficiency matrixs, in which $E_{kj}$ indicates the jth observation under
+kth criteria, see [cross-efficiency table - sheet1- summary](./CE DEA.xlsx)
 
 #### Liu et al's Neutral CE approach.
 
