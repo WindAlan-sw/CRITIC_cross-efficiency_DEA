@@ -105,6 +105,9 @@ two CE approaches.
 
 <img width="505" alt="Screenshot 2023-01-08 at 01 25 28" src="https://user-images.githubusercontent.com/76271974/211176622-7195a026-abb8-4d76-a517-7370a87fa43b.png">
 
+#### Additioanl part
+If you are interested, you can compare the result by two entropy methods - Shannon entropy and CRITIC entropy,
+here has contributed the Python script that can automatically calculate the entropy results. [click here](./entropy.py)
 
 [^1]: Kao, C. (2015). Efficiency measurement for hierarchical network systems. Omega, 51, pp.121–127. doi:10.1016/j.omega.2014.09.008.
 [^2]: Liu, P., Zhang, Y. and Xu, H. (2022). A neutral cross-efficiency measurement for general parallel production system. Expert Systems with Applications, 205, p.117778. doi:10.1016/j.eswa.2022.117778.
