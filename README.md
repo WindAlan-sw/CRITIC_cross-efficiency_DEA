@@ -41,7 +41,8 @@ Here compares Kao's model with two models:
 2. A combination of **maxmin secondary objective model** and **CRITIC cross-efficiency model**.
 
 #### Maxmin DEA model
-Both methods utlize the maxmin secondary objective DEA model before applying the cross-efficiency approach.
+Both methods utlize the maxmin secondary objective DEA model before applying the cross-efficiency approach, which is
+very powerful in solving the zero values in multipliers. 
 The coding has been prepared which can be run on Lingo software. It demadns **20 times** running of [self-evaluated 
 three-level hierarchical DEA model](./SelfEvaHierarchialDEA.lng) proposed by Kao (2015).\
 _Note: We can get each DMU's self-evaluated efficiency of each component by adjusting the k value on the 30th line._
@@ -51,9 +52,43 @@ with k in [maxmin secondary objective model](./Maxmin_DEA_model.lng) to get the 
 **20 times** running of the program.
 
 After these two steps, we can get five efficiency matrixs, in which $E_{kj}$ indicates the jth observation under
-kth criteria, see [cross-efficiency table - sheet1- summary](./CE_DEA.xlsx)
+kth criteria, see [CE DEA.xlsx - sheet1- summary](./CE_DEA.xlsx)
 
 #### Liu et al's Neutral CE approach.
+In Liu et al's CE approach, they didn't directly use the peer-evaluated netwrok efficiency as the overall performance.
+They calcualted the network efficiency as the weighted average of four components' efficiencies. Let's see:
+
+Under each component matrix:
+1. They calculated the arithmetic average of a DMU's column. 
+2. Using each DMU's inputs to total inputs as its contribution to the network efficiency, so this method also called a input-oriented way.
+3. Calculating the network efficiency for DMU.
+The process of calculating the network efficiency has been shown in below table:
+
+<img width="666" alt="Screenshot 2023-01-08 at 01 06 45" src="https://user-images.githubusercontent.com/76271974/211176166-96b72936-5fdb-4a1d-a7b8-0a5f6dc6840c.png">
+
+#### CRITIC CE approach
+The CRITIC CE considers the information value in efficiency table, and considers separately, but based on the standarded
+error and correlation rate of peer opinions. Here gives the example of $E_{k}^{U}$:
+<img width="689" alt="Screenshot 2023-01-08 at 01 11 46" src="https://user-images.githubusercontent.com/76271974/211176285-478bc62e-8a4e-4b2d-8348-6f0ff34e192f.png">
+_Note: the rows of table indicate the criteria of a DMU while the column indicates an observation_
+
+1. Calculate the standard error(SE) of each criteria (each row). On the sd column, the first number represents the SE of the first criteria given by the maxmin result of DMU1. 
+
+<img width="278" alt="Screenshot 2023-01-08 at 01 14 04" src="https://user-images.githubusercontent.com/76271974/211176330-f8aa9f3b-43bf-4fd9-b3ec-8f7ab39db3e9.png">
+
+2. Calculate the Spearman matrix for this undergraduate component efficiency matrix, given the result $R_{kj}$
+
+3. Calculate 1 - $R_{kj}$
+
+<img width="730" alt="Screenshot 2023-01-08 at 01 17 20" src="https://user-images.githubusercontent.com/76271974/211176398-21b4834d-f00d-4931-9982-4bc00c4d15e4.png">
+
+4. Calculate the conflict for each criteria  = SE * (1 - $R_{kj}$ )
+
+5. Calculate the weight of each criteria as it's divided by the total value of conflicts
+
+6. Calculate the final $E^{U}_{j}$ for each DMU.
+
+<img width="242" alt="Screenshot 2023-01-08 at 01 21 09" src="https://user-images.githubusercontent.com/76271974/211176489-d6e6e77f-bf1a-45d0-accf-7b1c16343b76.png">
 
 
 
