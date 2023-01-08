@@ -90,6 +90,20 @@ _Note: the rows of table indicate the criteria of a DMU while the column indicat
 
 <img width="242" alt="Screenshot 2023-01-08 at 01 21 09" src="https://user-images.githubusercontent.com/76271974/211176489-d6e6e77f-bf1a-45d0-accf-7b1c16343b76.png">
 
+Therefore, under the CRITIC CE approach, we are not required to consider how each suboridnates contributing to the
+final network efficiency. Then below gives the measurement comparsion between Kao's model and previously discussed 
+two CE approaches.
+
+
+
+
+**Network Efficiency**
+
+<img width="626" alt="Screenshot 2023-01-08 at 01 24 43" src="https://user-images.githubusercontent.com/76271974/211176609-1dad9daf-a9c0-451c-921b-58f06b094ebd.png">
+
+**Components Efficiency**
+
+<img width="505" alt="Screenshot 2023-01-08 at 01 25 28" src="https://user-images.githubusercontent.com/76271974/211176622-7195a026-abb8-4d76-a517-7370a87fa43b.png">
 
 
 [^1]: Kao, C. (2015). Efficiency measurement for hierarchical network systems. Omega, 51, pp.121–127. doi:10.1016/j.omega.2014.09.008.
