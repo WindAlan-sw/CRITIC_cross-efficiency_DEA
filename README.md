@@ -43,5 +43,5 @@ Here compares Kao's model with two models:
 
 
 [^1]: Kao, C. (2015). Efficiency measurement for hierarchical network systems. Omega, 51, pp.121–127. doi:10.1016/j.omega.2014.09.008.
-[^2]: Liu, P., Zhang, Y. and Xu, H. (2022). A neutral cross-efficiency measurement for general parallel production system. Expert Systems with Applications, 205, p.117778. doi:10.1016/j.eswa.2022.117778.![image](https://user-images.githubusercontent.com/76271974/211175510-b11d3381-6485-416c-b723-e84661e85061.png)
+[^2]: Liu, P., Zhang, Y. and Xu, H. (2022). A neutral cross-efficiency measurement for general parallel production system. Expert Systems with Applications, 205, p.117778. doi:10.1016/j.eswa.2022.117778.
 
