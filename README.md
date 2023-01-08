@@ -43,7 +43,7 @@ Here compares Kao's model with two models:
 #### Maxmin DEA model
 Both methods utlize the maxmin secondary objective DEA model before applying the cross-efficiency approach.
 The coding has been prepared which can be run on Lingo software. It demadns **20 times** running of [self-evaluated 
-three-level hierarchical DEA model](./) proposed by Kao (2015). You can find 
+three-level hierarchical DEA model](./SelfEvaHierarchialDEA.lng) proposed by Kao (2015). You can find 
 
 #### Liu et al's Neutral CE approach.
 
